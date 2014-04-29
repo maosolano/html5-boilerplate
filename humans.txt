@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <maosolano> -- <diseñador> -- <@maosolano>
 
 # THANKS
 
-    <name>
+    <Anabelle Handdoek>
 
 # TECHNOLOGY COLOPHON
 
