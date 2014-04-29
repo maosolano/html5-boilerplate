@@ -96,10 +96,26 @@ color: black;
 font-family: Asap;
 }
 
-
-
-
-
+h1 {
+    font-weight: 30
+    font-style: bold
+}
+h2 {
+    font-weight: 24
+    font-style: regular;
+}
+h3 {
+    font-weight: 21
+    font-style: regular
+}
+h4 {
+    font-weight: 18
+    font-style: bold;
+}
+h5 {
+    font-weight: 14
+    font-style: regular;
+}
 
 
 
