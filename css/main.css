@@ -84,7 +84,7 @@ textarea {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
-    padding: 0.2em 0;
+    padding: 0.2em 0 5px;
 }
 
 /* ==========================================================================
@@ -92,8 +92,11 @@ textarea {
    ========================================================================== */
 
 body {
+    background-image: url(../img/mapa_blurred.jpg);
+    background-repeat: repeat; 
     color: black;
     font-family: Asap;
+    padding-bottom: 5em;
 }
 
 h1, h4 {
@@ -101,7 +104,7 @@ h1, h4 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.875em;
     font-weight: 700;
 }
 h2 {
@@ -109,26 +112,29 @@ h2 {
     font-weight: 400;
 }
 h3 {
-    font-size: 1em;
+    font-size: 1.313em;
     font-style: italic;
     font-weight: 400;
 }
 h4 {
-    font-size: 0.7em;
+    font-size: 1.125em;
     font-weight: 700;
 }
 h5 {
-    font-size: 0.5em;
+    font-size: 0.875em;
     font-weight: 400;
 }
 
 .boton {
     background: #FFFFFF;
     border: 1px solid #ccc;
+    border-radius: 1.5em;
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.2);
     color: #45B0DE;
     display: inline-block;
-    margin: 0.25em;
-    padding:1em;
+    line-height:1em;
+    margin: 0.5em;
+    padding:1em 2em;
     text-decoration: none;
 }
 
@@ -141,20 +147,60 @@ h5 {
 .boton.inactive {
     background: rgba(0,0,0, 0.35);
     color: #666666;
+    border: none;
 }
 
 .boton.inactive:hover {
-    
+    background: rgba(0,0,0, 0.45);
+    color: #FFFFFF;
 }
 
+.menus_ocultos {
+    background-image: url(../img/textura_menuoculto.png);
+    background-repeat: repeat;
+}
+    
+.cuadrito {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
 
+.cuadrito.azul {
+    background: #45B0DE;
+}
 
+.cuadrito.gris {
+    background: #666666;
+}
 
+.cuadrito.negro {
+    background: #000000;
+}
 
+.cuadrito.blanco {
+    background: #FFFFFF;
+}
 
+.cuadrito.culturales {
+    background: #944C82;
+}
 
+.cuadrito.bibliotecas {
+    background: #9FC24C;
+}
 
+.cuadrito.arte {
+    background: #FAAA14;
+}
 
+.cuadrito.museodeloro {
+    background: #7D5D36;
+}
+
+.cuadrito.musica {
+    background: #AB070F;
+}
 
 
 /* ==========================================================================
